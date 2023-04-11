@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Kök (Root) -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İki Sayının Toplamı Uygulaması</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainArea">
+        <!-- Başlık -->
+        <h3 class="heading">İki Sayının Toplamı</h3>
+        <!-- 1. Sayı Girişi -->
+        <div class="inputArea">
+            <label for="n1" class="inputLabel">1. Sayıyı Giriniz:</label>
+            <input type="number" id="n1">
+        </div>
+        <!-- 2. Sayı Girişi -->
+        <div class="inputArea">
+            <label for="n2" class="inputLabel">2. Sayıyı Giriniz:</label>
+            <input type="number" id="n2">
+        </div>
+        <!-- Buton -->
+        <div>
+            <button class="sumBtn" id="btn">Topla</button>
+            <div class="resultArea">
+                <div>
+                    <strong>Toplam:</strong>
+                </div>
+                <div class="innerResultArea">
+                    <span id="result"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
